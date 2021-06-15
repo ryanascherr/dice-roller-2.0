@@ -1,0 +1,36 @@
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+.basic-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn, .number, .display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dice {
+    margin-bottom: 15px;
+}
+
+.image {
+    max-width: 100px;
+    border: 2px solid black;
+}
+
+.number {
+    border: 2px solid black;
+}
+
+.image img {
+    width: 100%;
+}
+
+.number button {
+    padding: 1px;
+}
